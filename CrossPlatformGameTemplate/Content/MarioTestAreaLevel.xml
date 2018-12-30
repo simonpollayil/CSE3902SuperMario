@@ -1,0 +1,4586 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LevelData>
+  <LevelArea>
+    <LevelHeight>256</LevelHeight>
+    <LevelWidth>3600</LevelWidth>
+  </LevelArea>
+  <ObjectData>
+    <!-- Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>300 50</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumCloud</ObjectName>
+      <Location>400 60</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigHill</ObjectName>
+      <Location>500 444</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>575 40</Location>
+    </Item>
+    <Item>
+        <ObjectType>BackgroundElements</ObjectType>
+        <ObjectName>Castle</ObjectName>
+        <Location>3505 150</Location>
+    </Item>
+    <Item>
+        <ObjectType>BackgroundElements</ObjectType>
+        <ObjectName>Flagpole</ObjectName>
+        <Location>3463 56</Location>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3463 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Test Area Blocks -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>0 176</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>InvisibleBlock</ObjectName>
+      <Location>16 176</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>32 176</Location>
+      <BlockItemType>Star</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>208 64</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>224 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>240 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>256 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>272 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>288 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>304 80</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>320 64</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>80 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>96 176</Location>
+      <BlockItemType>PowerUp</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>112 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>128 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>144 176</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>256 160</Location>
+      <BlockItemType>PowerUp</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>272 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>0 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>0 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>16 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>16 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>32 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>32 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>48 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>48 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>64 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>64 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>80 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>80 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>96 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>96 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>112 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>112 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>128 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>128 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>144 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>144 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>160 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>160 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>176 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>176 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>192 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>192 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>208 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>208 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>224 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>224 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>240 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>240 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>256 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>256 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>272 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>272 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>288 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>288 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>304 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>304 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>320 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>320 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>336 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>336 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>352 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>352 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Test Area Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>288 64</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>KoopaTroopa</ObjectName>
+      <Location>272 54</Location>
+    </Item>
+    <!-- World 1-1 Blocks-->
+    <!-- Chunk1 start 368, end 624 -->
+    <!-- Chunk1 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>368 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>368 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>384 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>384 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>400 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>400 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>416 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>416 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>432 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>432 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>448 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>448 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>464 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>464 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>480 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>480 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>496 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>496 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>512 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>512 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>528 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>528 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>544 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>544 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>560 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>560 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>576 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>576 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>592 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>592 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>608 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>608 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>624 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>624 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk 1 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigHill</ObjectName>
+      <Location>368 189</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallBush</ObjectName>
+      <Location>560 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallHill</ObjectName>
+      <Location>608 206</Location>
+    </Item>fe
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>512 50</Location>
+    </Item>
+    <!-- Chunk1 Floaty Stuff-->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>624 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <!-- Chunk2  start 640 end 896 -->
+    <!-- Chunk2 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>640 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>640 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>656 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>656 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>672 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>672 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>688 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>688 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>704 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>704 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>720 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>720 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>736 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>736 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>752 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>752 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>768 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>768 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>784 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>784 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>800 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>800 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>816 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>816 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>832 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>832 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>848 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>848 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>864 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>864 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>880 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>880 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>896 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>896 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk2 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>688 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>704 160</Location>
+      <BlockItemType>PowerUp</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>720 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>720 96</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>736 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>752 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk2 Structures -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>816 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 2 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallHill</ObjectName>
+      <Location>686 206</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumCloud</ObjectName>
+      <Location>734 60</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>800 208</Location>
+    </Item>
+    <!-- Chunk2 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>720 64</Location>
+    </Item>
+    <!-- Chunk3  start 912 end 1168 -->
+    <!-- Chunk3 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>912 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>912 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>928 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>928 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>944 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>944 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>960 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>960 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>976 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>976 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>992 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>992 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1008 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1008 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1024 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1024 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1040 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1040 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1056 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1056 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1072 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1072 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1088 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1088 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1104 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1104 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1120 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1120 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1136 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1136 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1152 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1152 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1168 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1168 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk3 Structures -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>960 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>1104 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 3 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>989 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>932 40</Location>
+    </Item>
+    <!-- Chunk3 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>992 208</Location>
+    </Item>
+
+    <!-- Chunk4  start 1184 end 1440 -->
+    <!-- Chunk4 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1184 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1184 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1200 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1200 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1216 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1216 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1232 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1232 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1248 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1248 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1264 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1264 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1280 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1280 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1296 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1296 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1312 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1312 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1328 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1328 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1344 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1344 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1360 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1360 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1376 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1376 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1392 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1392 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1408 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1408 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1424 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1424 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1440 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1440 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk4 Structures -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>1280 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 4 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallHill</ObjectName>
+      <Location>1340 206</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>1184 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallBush</ObjectName>
+      <Location>1280 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>1320 50</Location>
+    </Item>
+    <!-- Chunk4 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1184 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1216 208</Location>
+    </Item>
+
+    <!-- Chunk5  start 1440 end 1696 -->
+    <!-- Chunk5 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1456 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1456 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1504 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1504 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1520 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1520 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1536 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1536 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1552 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1552 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1568 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1568 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1584 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1584 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1600 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1600 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1616 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1616 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1632 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1632 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1648 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1648 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1664 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1664 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1680 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1680 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1696 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1696 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk5 Floaty Suff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1600 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>1616 160</Location>
+      <BlockItemType>PowerUp</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1632 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1648 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1664 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1680 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1696 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 5 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigHill</ObjectName>
+      <Location>1650 189</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallBush</ObjectName>
+      <Location>1560 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumCloud</ObjectName>
+      <Location>1500 40</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>1480 30</Location>
+    </Item>
+    <!-- Chunk5 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1648 96</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1650 96</Location>
+    </Item>
+    <!-- Chunk6  start 1712 end 1968 -->
+    <!-- Chunk6 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1712 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1712 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1728 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1728 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1792 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1792 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1808 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1808 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1824 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1824 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1840 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1840 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1856 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1856 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1872 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1872 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1888 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1888 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1904 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1904 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1920 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1920 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1936 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1936 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1952 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1952 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1968 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1968 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk6 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1712 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1728 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1744 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1760 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1824 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1840 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1856 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>1872 96</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1872 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1968 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 6 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallHill</ObjectName>
+      <Location>1830 206</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallBush</ObjectName>
+      <Location>1800 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>1870 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>1850 60</Location>
+    </Item>
+    <!-- Chunk6 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1904 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>1936 208</Location>
+    </Item>
+    <!-- Chunk7  start 1968 end 2224 -->
+    <!-- Chunk7 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1968 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1968 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1984 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>1984 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2000 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2000 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2016 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2016 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2032 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2032 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2048 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2048 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2064 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2064 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2080 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2080 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2096 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2096 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2112 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2112 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2128 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2128 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2144 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2144 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2160 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2160 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2176 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2176 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2192 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2192 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2208 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2208 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2224 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2224 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk7 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>1984 160</Location>
+      <BlockItemType>Star</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2032 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2080 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2080 96</Location>
+      <BlockItemType>PowerUp</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2128 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2224 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 7 Background Elements -->
+
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>2000 208</Location>
+    </Item>
+
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>2400 50</Location>
+    </Item>
+    <!-- Chunk7 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2160 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2192 208</Location>
+    </Item>
+    <!-- Chunk8  start 2240 end 2496 -->
+    <!-- Chunk8 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2240 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2240 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2256 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2256 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2272 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2272 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2288 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2288 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2304 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2304 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2320 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2320 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2336 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2336 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2352 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2352 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2368 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2368 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2384 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2384 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2400 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2400 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2416 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2416 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2432 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2432 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2448 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2448 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2464 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2464 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2480 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2480 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2496 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2496 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk8 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2272 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2288 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2304 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2368 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2384 96</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>2400 96</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2384 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2400 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2416 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2464 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2480 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2480 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2496 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2496 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2496 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk 8 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigHill</ObjectName>
+      <Location>2350 189</Location>
+    </Item>
+
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>2480 530</Location>
+    </Item>
+
+    <!-- Chunk8 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2320 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2336 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2368 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>2384 208</Location>
+    </Item>
+    <!-- Chunk9  start 2512 end 2768 -->
+    <!-- Chunk9 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2512 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2512 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2528 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2528 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2544 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2544 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2560 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2560 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2576 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2576 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2592 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2592 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2608 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2608 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2624 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2624 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2640 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2640 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2656 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2656 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2672 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2672 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2688 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2688 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2704 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2704 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2720 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2720 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2736 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2736 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2752 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2752 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk9 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2512 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2512 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2512 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2512 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2560 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2560 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2560 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2560 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2576 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2576 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2576 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2592 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2592 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2608 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2688 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2704 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2704 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2720 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2720 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2720 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2736 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2736 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2736 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2736 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2752 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2752 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2752 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2752 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk 9 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigBush</ObjectName>
+      <Location>2560 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>2680 30</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumCloud</ObjectName>
+      <Location>2750 40</Location>
+    </Item>
+    <!-- Chunk10  start 2784 end 3040 -->
+    <!-- Chunk10 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2800 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2800 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2816 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2816 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2832 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2832 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2848 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2848 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2864 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2864 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2880 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2880 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2896 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2896 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2912 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2912 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2928 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2928 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2944 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2944 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2960 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2960 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2976 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2976 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2992 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>2992 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3008 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3008 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3024 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3024 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3040 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3040 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk10 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2800 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2800 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2800 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2800 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2816 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2816 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2816 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2832 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2832 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>2848 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>2992 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>3008 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>QuestionBlock</ObjectName>
+      <Location>3024 160</Location>
+      <BlockItemType>Coin</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BrickBlock</ObjectName>
+      <Location>3040 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk10 Structure -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>2928 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk 10 Background Elements -->
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>MediumBush</ObjectName>
+      <Location>2950 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallHill</ObjectName>
+      <Location>2890 206</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>SmallCloud</ObjectName>
+      <Location>2700 50</Location>
+    </Item>
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>BigCloud</ObjectName>
+      <Location>2800 40</Location>
+    </Item>
+    <!-- Chunk11  start 3056 end 3312 -->
+    <!-- Chunk11 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3056 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3056 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3072 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3072 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3088 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3088 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3104 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3104 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3120 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3120 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3136 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3136 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3152 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3152 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3168 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3168 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3184 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3184 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3200 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3200 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3216 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3216 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3232 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3232 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3248 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3248 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3264 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3264 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3280 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3280 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3296 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3296 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3312 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3312 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk11 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3200 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3216 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3216 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3232 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3232 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3232 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3248 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3248 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3248 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3248 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3264 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3264 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3264 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3264 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3264 144</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 144</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3280 128</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 144</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 128</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3296 112</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 144</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 128</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 112</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3312 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk11 Structure -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Pipe</ObjectName>
+      <Location>3168 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Chunk11 Enemies -->
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>3088 208</Location>
+    </Item>
+    <Item>
+      <ObjectType>Enemies</ObjectType>
+      <ObjectName>Goomba</ObjectName>
+      <Location>3104 208</Location>
+    </Item>
+    <!-- Chunk12  start 3328 end 3584 -->
+    <!-- Chunk12 Ground -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3328 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3328 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3344 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3344 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3360 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3360 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3376 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3376 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3392 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3392 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3408 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3408 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3424 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3424 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3440 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3440 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3456 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3456 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3472 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3472 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3488 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3488 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3504 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3504 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3520 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3520 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3536 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3536 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3552 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3552 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3568 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3568 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3584 240</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>GravelBlock</ObjectName>
+      <Location>3584 224</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+
+    <!-- Chunk12 Floaty Stuff -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 208</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 192</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 176</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 160</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 144</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 128</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 112</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>ShinyBlock</ObjectName>
+      <Location>3328 96</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <!-- Player -->
+    <Item>
+      <ObjectType>Mario</ObjectType>
+      <ObjectName>MarioEntity</ObjectName>
+      <Location>0 205</Location>
+      <Lives>3</Lives>
+      <PlayerType>Mario</PlayerType>
+    </Item>
+    <Item>
+      <ObjectType>Mario</ObjectType>
+      <ObjectName>MarioEntity</ObjectName>
+      <Location>14 205</Location>
+      <Lives>3</Lives>
+      <PlayerType>Luigi</PlayerType>
+    </Item>
+  </ObjectData>
+    
+    <!-- Underground area -->
+    <!-- Bottom two rows -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>88 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>104 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>120 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>136 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>152 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>168 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>184 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>200 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>216 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>232 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>248 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>264 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>280 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>296 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>312 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>328 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+        <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>344 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>360 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>376 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>392 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>408 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>424 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>440 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>456 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>472 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>488 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>504 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>520 -100</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>88 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>104 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>120 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>136 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>152 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>168 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>184 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>200 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>216 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>232 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>248 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>264 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>280 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>296 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>312 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>328 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>344 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>360 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>376 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>392 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>408 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>424 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>440 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>456 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>472 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>488 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>504 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueGravelBlock</ObjectName>
+      <Location>520 -116</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    
+    <!-- Left Wall -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+     <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -180</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item> 
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -196</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -212</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -228</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -244</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -260</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -276</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>100 -292</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    
+    <!-- Center Blocks -->
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>266 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>266 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>266 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>282 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>282 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>282 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>298 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>298 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>298 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>314 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>314 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>314 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>330 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>330 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>330 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>346 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>346 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>346 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>362 -132</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>362 -148</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    <Item>
+      <ObjectType>Blocks</ObjectType>
+      <ObjectName>BlueBrickBlock</ObjectName>
+      <Location>362 -164</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+    
+    <!-- Coins -->
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>362 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>346 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>330 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>314 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>298 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>282 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>266 -180</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>362 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>346 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>330 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>314 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>298 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>282 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>266 -196</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>346 -212</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>330 -212</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>314 -212</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>298 -212</Location>
+    </Item>
+    <Item>
+      <ObjectType>Items</ObjectType>
+      <ObjectName>Coin</ObjectName>
+      <Location>282 -212</Location>
+    </Item>
+    
+    <Item>
+      <ObjectType>BackgroundElements</ObjectType>
+      <ObjectName>ExitPipe</ObjectName>
+      <Location>485 -292</Location>
+      <BlockItemType>None</BlockItemType>
+    </Item>
+</LevelData>

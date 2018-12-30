@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<ObjectData>
+		<!-- Player -->
+			<Item>
+				<ObjectType>Mario</ObjectType>
+				<ObjectName>MarioEntity</ObjectName>
+				<Location>30 400</Location>
+			</Item>
+		<!-- Background Elements -->
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>SmallHill</ObjectName>
+				<Location>100 462</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>SmallBush</ObjectName>
+				<Location>220 464</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>MediumBush</ObjectName>
+				<Location>262 464</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>BigBush</ObjectName>
+				<Location>320 464</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>SmallCloud</ObjectName>
+				<Location>300 50</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>MediumCloud</ObjectName>
+				<Location>400 60</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>BigHill</ObjectName>
+				<Location>500 444</Location>
+			</Item>
+			<Item>
+				<ObjectType>BackgroundElements</ObjectType>
+				<ObjectName>BigCloud</ObjectName>
+				<Location>575 40</Location>
+			</Item>
+			<!-- Blocks -->
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>BrickBlock</ObjectName>
+				<Location>320 240</Location>
+                <BlockItemType>Coin</BlockItemType>
+			</Item>
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>GravelBlock</ObjectName>
+				<Location>350 240</Location>
+                <BlockItemType>None</BlockItemType>
+			</Item>
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>HitBlock</ObjectName>
+				<Location>380 240</Location>
+                <BlockItemType>None</BlockItemType>
+			</Item>
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>InvisibleBlock</ObjectName>
+				<Location>410 240</Location>
+                <BlockItemType>Star</BlockItemType>
+			</Item>
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>QuestionBlock</ObjectName>
+				<Location>440 240</Location>
+                <BlockItemType>PowerUp</BlockItemType>
+			</Item>
+			<Item>
+				<ObjectType>Blocks</ObjectType>
+				<ObjectName>ShinyBlock</ObjectName>
+				<Location>470 240</Location>
+                <BlockItemType>None</BlockItemType>
+			</Item>
+			<!-- Items -->
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>Coin</ObjectName>
+				<Location>100 190</Location>
+			</Item>
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>Flower</ObjectName>
+				<Location>125 190</Location>
+			</Item>
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>GreenMushroom</ObjectName>
+				<Location>150 190</Location>
+			</Item>
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>RedMushroom</ObjectName>
+				<Location>175 190</Location>
+			</Item>
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>Star</ObjectName>
+				<Location>200 190</Location>
+			</Item>
+			<Item>
+				<ObjectType>Items</ObjectType>
+				<ObjectName>Pipe</ObjectName>
+				<Location>240 240</Location>
+			</Item>
+			<!-- Enemies -->
+			<Item>
+				<ObjectType>Enemies</ObjectType>
+				<ObjectName>Goomba</ObjectName>
+				<Location>500 360</Location>
+			</Item>
+			<Item>
+				<ObjectType>Enemies</ObjectType>
+				<ObjectName>KoopaTroopa</ObjectName>
+				<Location>550 350</Location>
+			</Item>
+		</ObjectData>

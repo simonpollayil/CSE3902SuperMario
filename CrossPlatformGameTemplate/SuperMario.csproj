@@ -1,0 +1,264 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperMario</RootNamespace>
+    <AssemblyName>SuperMario</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;LINUX</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;LINUX</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CameraController.cs" />
+    <Compile Include="HUDAndSoundSystemControl\SoundSystemControl\MusicController.cs" />
+    <Compile Include="ScoreSystem\CentralSystems\CentralizedLifeSystem\CentralizedLives.cs" />
+    <Compile Include="Entities\BackgroundElements\WinterBackgroundTextureStorage.cs" />
+    <Compile Include="Entities\Mario\WinterMarioTextureStorage.cs" />
+    <Compile Include="Entities\Mario\WinterLuigiTextureStorage.cs" />
+    <Compile Include="WinterTextureStorage.cs" />
+    <Compile Include="Entities\Blocks\IHitUpAndDownBlock.cs" />
+    <Compile Include="Entities\Mario\MarioDyingAnimation.cs" />
+    <Compile Include="HUDAndSoundSystemControl\HUDControl\HUDController.cs" />
+    <Compile Include="Commands\BrickCommands\InvisibleToUsedBlockCommand.cs" />
+    <Compile Include="Commands\BrickCommands\QuestionToUsedBlockCommand.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\MarioCommand\ChangeMarioXDirection.cs" />
+    <Compile Include="Commands\MarioCommand\ChangeMarioYDirection.cs" />
+    <Compile Include="Commands\MarioCommand\MarioAbilityCommand.cs" />
+    <Compile Include="Commands\QuittingCommand.cs" />
+    <Compile Include="Controllers\GamepadController.cs" />
+    <Compile Include="Controllers\IController.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="Entities\BackgroundElements\BackgroundTextureStorage.cs" />
+    <Compile Include="Entities\BackgroundElements\MediumBush.cs" />
+    <Compile Include="Entities\BackgroundElements\BigBush.cs" />
+    <Compile Include="Entities\BackgroundElements\BigCloud.cs" />
+    <Compile Include="Entities\BackgroundElements\MediumCloud.cs" />
+    <Compile Include="Entities\BackgroundElements\SmallCloud.cs" />
+    <Compile Include="Entities\BackgroundElements\SmallBush.cs" />
+    <Compile Include="Entities\BackgroundElements\BigHill.cs" />
+    <Compile Include="Entities\BackgroundElements\SmallHill.cs" />
+    <Compile Include="Entities\Blocks\IBlock.cs" />
+    <Compile Include="Entities\Enemies\IEnemy.cs" />
+    <Compile Include="Entities\Enemies\Goomba.cs" />
+    <Compile Include="Entities\Enemies\KoopaTroopa.cs" />
+    <Compile Include="Entities\Blocks\BrickBlock.cs" />
+    <Compile Include="Entities\Blocks\HitBlock.cs" />
+    <Compile Include="Entities\Blocks\InvisibleBlock.cs" />
+    <Compile Include="Entities\Blocks\ShinyBlock.cs" />
+    <Compile Include="Entities\ISprite.cs" />
+    <Compile Include="Entities\Items\Projectile.cs" />
+    <Compile Include="Entities\Items\Pipe.cs" />
+    <Compile Include="Entities\Items\Star.cs" />
+    <Compile Include="Entities\Items\Flower.cs" />
+    <Compile Include="Entities\Items\Coin.cs" />
+    <Compile Include="Entities\Items\RedMushroom.cs" />
+    <Compile Include="Entities\Items\GreenMushroom.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\StarFireMario.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\StarSmallMario.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\StarSuperMario.cs" />
+    <Compile Include="Entities\Mario\MarioStateMachine.cs" />
+    <Compile Include="Entities\MovingAnimatedEntity.cs" />
+    <Compile Include="Entities\MovingEntity.cs" />
+    <Compile Include="Entities\MovingStaticEntity.cs" />
+    <Compile Include="Entities\TintableAnimatedEntity.cs" />
+    <Compile Include="Entities\TintableSprite.cs" />
+    <Compile Include="Entities\TintableStaticEntity.cs" />
+    <Compile Include="LevelData.cs" />
+    <Compile Include="LevelLoading.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EntityStorage.cs" />
+    <Compile Include="ScoreSystem\CentralSystems\CentralizedCoinSystem\CoinSystem.cs" />
+    <Compile Include="Sound\Music\Music.cs" />
+    <Compile Include="Sound\SFX\SoundEffects.cs" />
+    <Compile Include="Sound\SoundStorage.cs" />
+    <Compile Include="ScoreSystem\ScoreKeeper.cs" />
+    <Compile Include="TextureStorage.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\AnimatedEntity.cs" />
+    <Compile Include="Entities\Blocks\QuestionBlock.cs" />
+    <Compile Include="Entities\Sprite.cs" />
+    <Compile Include="Entities\Blocks\GravelBlock.cs" />
+    <Compile Include="Entities\StaticEntity.cs" />
+    <Compile Include="Entities\Mario\MarioEntity.cs" />
+    <Compile Include="Entities\Mario\MarioTextureStorage.cs" />
+    <Compile Include="Entities\Mario\MarioStateEnum.cs" />
+    <Compile Include="Entities\Mario\IMarioCondition.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\FireMario.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\SmallMario.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\SuperMarioEntity.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\MarioConditionState.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\DeadMario.cs" />
+    <Compile Include="Collision\RectangleCollider.cs" />
+    <Compile Include="Entities\IEntityCollider.cs" />
+    <Compile Include="Entities\Direction.cs" />
+    <Compile Include="Entities\Blocks\BlockHelper.cs" />
+    <Compile Include="Commands\MarioCommand\ChangeMarioConditionStateCommand.cs" />
+    <Compile Include="Commands\MarioCommand\ChangeMarioMovementStateCommand.cs" />
+    <Compile Include="Commands\ResetInitialStateCommand.cs" />
+    <Compile Include="Entities\Blocks\HitUpAndDownBlockStatic.cs" />
+    <Compile Include="Entities\Blocks\HitUpAndDownBlockAnimated.cs" />
+    <Compile Include="Collision\MarioCollisionHandler.cs" />
+    <Compile Include="Collision\EnemyCollisionHandler.cs" />
+    <Compile Include="Collision\ItemCollisionHandler.cs" />
+    <Compile Include="Collision\FireballCollisionHandler.cs" />
+    <Compile Include="Collision\MasterCollider.cs" />
+    <Compile Include="Collision\ICollisionHandler.cs" />
+    <Compile Include="Collision\CollisionHelper.cs" />
+    <Compile Include="Commands\PauseCommand.cs" />
+    <Compile Include="Entities\Blocks\BlueGravelBlock.cs" />
+    <Compile Include="Entities\BackgroundElements\Castle.cs" />
+    <Compile Include="Entities\BackgroundElements\Flag.cs" />
+    <Compile Include="Entities\BackgroundElements\Flagpole.cs" />
+    <Compile Include="Entities\BackgroundElements\ExitPipe.cs" />
+    <Compile Include="Entities\Mario\MarioEndLevelAnimation.cs" />
+    <Compile Include="Entities\BackgroundElements\GameOverScreen.cs" />
+    <Compile Include="Entities\Blocks\BlueBrickBlock.cs" />
+    <Compile Include="Entities\Mario\LuigiTextureStorage.cs" />
+    <Compile Include="Entities\Mario\PlayerSkin.cs" />
+    <Compile Include="Entities\Mario\PlayerTexturePacks\SmallLuigiTexturePack.cs" />
+    <Compile Include="Entities\Mario\PlayerTexturePacks\SmallMarioTexturePack.cs" />
+    <Compile Include="Entities\Mario\PlayerTexturePacks\SuperMarioTexturePack.cs" />
+    <Compile Include="Entities\Mario\PlayerTexturePacks\SuperLuigiTexturePack.cs" />
+    <Compile Include="Entities\Mario\PlayerTexturePacks\FirePlayerTexturePack.cs" />
+    <Compile Include="Entities\Mario\Players\LuigiPlayerTextures.cs" />
+    <Compile Include="Entities\Mario\Players\MarioPlayerTextures.cs" />
+    <Compile Include="Entities\Mario\Players\PlayerTextureMap.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\PlayerCondition.cs" />
+    <Compile Include="Entities\Mario\MarioCondition\StarMario.cs" />
+    <Compile Include="Controllers\AuxKeyboardController.cs" />
+    <Compile Include="Font.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\SDL2.dll">
+      <Link>x86\SDL2.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\SDL2.dll">
+      <Link>x64\SDL2.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\soft_oal.dll">
+      <Link>x86\soft_oal.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\soft_oal.dll">
+      <Link>x64\soft_oal.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\libSDL2-2.0.so.0">
+      <Link>x86\libSDL2-2.0.so.0</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\libSDL2-2.0.so.0">
+      <Link>x64\libSDL2-2.0.so.0</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x86\libopenal.so.1">
+      <Link>x86\libopenal.so.1</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\x64\libopenal.so.1">
+      <Link>x64\libopenal.so.1</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\libSDL2-2.0.0.dylib">
+      <Link>libSDL2-2.0.0.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\libopenal.1.dylib">
+      <Link>libopenal.1.dylib</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll.config">
+      <Link>MonoGame.Framework.dll.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Content\MarioLevel.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\MarioTestAreaLevel.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+</Project>
